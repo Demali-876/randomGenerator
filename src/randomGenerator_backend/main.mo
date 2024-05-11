@@ -5,7 +5,7 @@ import Iter "mo:base/Iter";
 
 actor RandomGenerator {
     let SubnetManager : actor {
-        raw_rand() : async Blob;
+      raw_rand() : async Blob;
     } = actor "aaaaa-aa"; // Management canister
 
     // Utility function to convert Blob to Nat
